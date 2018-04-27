@@ -1,0 +1,8 @@
+[package]
+name = "base64-utils"
+version = "0.1.0"
+authors = ["Michael Micucci <michael.micucci@exchange.co.jp>"]
+
+[dependencies]
+base64 = "*"
+uuid = {version = "*", features = ["v4"]}
